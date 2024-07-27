@@ -1,0 +1,21 @@
+.favorites-page {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(
+    135deg,
+    #667eea,
+    #764ba2
+  ); /* Gradient background */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.anime-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
